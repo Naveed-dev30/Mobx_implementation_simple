@@ -6,6 +6,8 @@ main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    print("I am print");
+
     return MaterialApp(
       theme: ThemeData(
         primaryColor: Colors.pinkAccent,
